@@ -1,0 +1,615 @@
+{
+  "PD": [
+    {
+      "name": "FOLHA GERAL",
+      "table": "FOLHA_GERAL",
+      "prefix": "FG"
+    },
+    {
+      "name": "ESPECIFICAÇÕES DE FRASCOS",
+      "table": "ESPECIFICACOES_FRASCOS",
+      "prefix": "1.10."
+    },
+    {
+      "name": "ESPECIFICAÇÕES DE RÓTULOS",
+      "table": "ESPECIFICACOES_ROTULOS",
+      "prefix": "1.14."
+    },
+    {
+      "name": "ESPECIFICAÇÕES DE CAIXAS",
+      "table": "ESPECIFICACOES_CAIXAS",
+      "prefix": "1.16."
+    },
+    {
+      "name": "ESPECIFICAÇÕES DE ETIQUETAS",
+      "table": "ESPECIFICACOES_ETIQUETAS",
+      "prefix": "1.18."
+    },
+    {
+      "name": "ESPECIFICAÇÕES DE TAMPAS",
+      "table": "ESPECIFICACOES_TAMPAS",
+      "prefix": "1.12."
+    },
+    {
+      "name": "ESPECIFICAÇÕES DE RESINAS",
+      "table": "ESPECIFICACOES_RESINAS",
+      "prefix": "1.21."
+    },
+    {
+      "name": "ESPECIFICAÇÕES DE CARTUCHOS",
+      "table": "ESPECIFICACOES_CARTUCHOS",
+      "prefix": "1.22."
+    },
+    {
+      "name": "ESPECIFICAÇÕES DE DIVERSOS",
+      "table": "ESPECIFICACOES_DIVERSOS",
+      "prefix": "1.24."
+    },
+    {
+      "name": "ESPECIFICAÇÕES DE FARDOS E SOS",
+      "table": "ESPECIFICACOES_FARDOS_SOS",
+      "prefix": "1.28."
+    },
+    {
+      "name": "ESPECIFICAÇÕES DE FILMES",
+      "table": "ESPECIFICACOES_FILMES",
+      "prefix": "1.26."
+    },
+    {
+      "name": "ESPECIFICAÇÕES DE LATAS",
+      "table": "ESPECIFICACOES_LATAS",
+      "prefix": "1.32."
+    },
+    {
+      "name": "ESPECIFICAÇÕES DE SOLAPAS",
+      "table": "ESPECIFICACOES_SOLAPAS",
+      "prefix": "1.20."
+    },
+    {
+      "name": "ESPECIFICAÇÕES GRANEIS",
+      "table": "GQ",
+      "prefix": "GQ"
+    },
+    {
+      "name": "ESPECIFICAÇÕES DE INSUMOS QUÍMICOS",
+      "table": "GQ",
+      "prefix": "GQ"
+    },
+    {
+      "name": "PROCESSO DE FABRICAÇÃO",
+      "table": "GQ",
+      "prefix": "GQ"
+    },
+    {
+      "name": "FÓRMULAS",
+      "table": "GQ",
+      "prefix": "GQ"
+    },
+    {
+      "name": "MODELO DE ROTULAGEM",
+      "table": "GQ",
+      "prefix": "GQ"
+    },
+    {
+      "name": "PLANO DE ORIENTAÇÃO CORRETIVA",
+      "table": "GQ",
+      "prefix": "GQ"
+    },
+    {
+      "name": "FISPQ",
+      "table": "FISPQ",
+      "prefix": "FISPQ"
+    },
+    {
+      "name": "CERTIFICADO DE PRODUTO",
+      "table": "CERTIFICADO_PRODUTO",
+      "prefix": "CP"
+    },
+    {
+      "name": "P&D QUÍMICOS",
+      "table": "GQ",
+      "prefix": "GQ"
+    },
+    {
+      "name": "MICROBIOLOGIA",
+      "table": "GQ",
+      "prefix": "GQ"
+    },
+    {
+      "name": "P&E EMBALAGEM",
+      "table": "GQ",
+      "prefix": "GQ"
+    },
+    {
+      "name": "P&D LÃ",
+      "table": "GQ",
+      "prefix": "GQ"
+    },
+    {
+      "name": "PÓ DE AÇO GQ",
+      "table": "GQ",
+      "prefix": "GQ"
+    },
+    {
+      "name": "FICHAS DE EMERGÊNCIAS",
+      "table": "FICHAS_EMERGENCIAS",
+      "prefix": "FE"
+    }
+  ],
+  "CQ": [
+    {
+      "ancestor": "UNIT_TEST",
+      "name": "UNIT_TEST",
+      "table": "UNIT_TEST",
+      "prefix": "UNIT_TEST"
+    },
+    {
+      "ancestor": "CONTROLE DE QUALIDADE",
+      "name": "PLANO DE INSPEÇÃO",
+      "table": "GQ",
+      "prefix": "GQ"
+    },
+    {
+      "ancestor": "FLUXOGRAMA",
+      "name": "GARANTIA DE QUALIDADE",
+      "table": "GARANTIA_QUALIDADE_FX",
+      "prefix": "FX"
+    },
+    {
+      "ancestor": "FLUXOGRAMA",
+      "name": "P&D EMBALAGEM",
+      "table": "GQ",
+      "prefix": "GQ"
+    },
+    {
+      "ancestor": "FLUXOGRAMA",
+      "name": "PÓ DE AÇO",
+      "table": "PO_ACO_FXPA",
+      "prefix": "FXPA"
+    },
+    {
+      "ancestor": "FORMULÁRIOS",
+      "name": "ALMOXARIFADO",
+      "table": "ALMOXARIFADO_FAL",
+      "prefix": "FAL"
+    },
+    {
+      "ancestor": "FORMULÁRIOS",
+      "name": "APLICAÇÕES INDUSTRIAIS",
+      "table": "APLICACOES_INDUSTRIAIS_FAC",
+      "prefix": "FAC"
+    },
+    {
+      "ancestor": "FORMULÁRIOS",
+      "name": "CONTROLE DE QUALIDADE",
+      "table": "CONTROLE_QUALIDADE_FCQ",
+      "prefix": "FCQ"
+    },
+    {
+      "ancestor": "FORMULÁRIOS",
+      "name": "ENGENHARIA",
+      "table": "ENGENHARIA_FENG",
+      "prefix": "FENG"
+    },
+    {
+      "ancestor": "FORMULÁRIOS",
+      "name": "ENVASE QUIMICO",
+      "table": "ENVASE_QUIMICO_FEQ",
+      "prefix": "FEQ"
+    },
+    {
+      "ancestor": "FORMULÁRIOS",
+      "name": "FABRICAÇÃO",
+      "table": "FABRICACAO_FQF",
+      "prefix": "FQF"
+    },
+    {
+      "ancestor": "FORMULÁRIOS",
+      "name": "FACAS E PENTES",
+      "table": "FACAS_PENTES_FPX",
+      "prefix": "FPX"
+    },
+    {
+      "ancestor": "FORMULÁRIOS",
+      "name": "GARANTIA DA QUALIDADE",
+      "table": "GARANTIA_QUALIDADE_FGQ",
+      "prefix": "FGQ"
+    },
+    {
+      "ancestor": "FORMULÁRIOS",
+      "name": "LÃ DE AÇO",
+      "table": "LA_ACO_FLA",
+      "prefix": "FLA"
+    },
+    {
+      "ancestor": "FORMULÁRIOS",
+      "name": "LEAN",
+      "table": "LEAN_FLN",
+      "prefix": "FLN"
+    },
+    {
+      "ancestor": "FORMULÁRIOS",
+      "name": "LOGISTICA",
+      "table": "LOGISTICA_F03001",
+      "prefix": "F03001"
+    },
+    {
+      "ancestor": "FORMULÁRIOS",
+      "name": "LOGISTICA FLO",
+      "table": "LOGISTICA_FLO",
+      "prefix": "FLO"
+    },
+    {
+      "ancestor": "FORMULÁRIOS",
+      "name": "MANUTENÇÃO",
+      "table": "MANUTENCAO_FMA",
+      "prefix": "FMA"
+    },
+    {
+      "ancestor": "FORMULÁRIOS",
+      "name": "MANUTENÇÃO LÃ DE AÇO",
+      "table": "MANUTENCAO_LA_ACO_FML",
+      "prefix": "FML"
+    },
+    {
+      "ancestor": "FORMULÁRIOS",
+      "name": "MEIO AMBIENTE",
+      "table": "MEIO_AMBIENTE_FSMA",
+      "prefix": "FSMA"
+    },
+    {
+      "ancestor": "FORMULÁRIOS",
+      "name": "PÓ DE AÇO",
+      "table": "PO_ACO_FPA",
+      "prefix": "FPA"
+    },
+    {
+      "ancestor": "FORMULÁRIOS",
+      "name": "PPP",
+      "table": "PPP_FPPP",
+      "prefix": "FPPP"
+    },
+    {
+      "ancestor": "FORMULÁRIOS",
+      "name": "SEGURANÇA DO TRABALHO",
+      "table": "SEGURANCA_TRABALHO_FST",
+      "prefix": "FST"
+    },
+    {
+      "ancestor": "FORMULÁRIOS",
+      "name": "TREINAMENTO E SELEÇÃO",
+      "table": "TREINAMENTO_SELECAO_FTS",
+      "prefix": "FTS"
+    },
+    {
+      "ancestor": "FORNECEDORES",
+      "name": "GARANTIA DA QUALIDADE",
+      "table": "GARANTIA_QUALIDADE_FORN",
+      "prefix": "FORN"
+    },
+    {
+      "ancestor": "MACROFLUXOS",
+      "name": "LÃ DE AÇO",
+      "table": "LA_ACO_MPLA",
+      "prefix": "MPLA"
+    },
+    {
+      "ancestor": "MACROFLUXOS",
+      "name": "PÓ DE AÇO",
+      "table": "PO_ACO_MP",
+      "prefix": "MP"
+    },
+    {
+      "ancestor": "MANUAIS",
+      "name": "GARANTIA DA QUALIDADE",
+      "table": "GARANTIA_QUALIDADE_MQ",
+      "prefix": "MQ"
+    },
+    {
+      "ancestor": "MANUAIS",
+      "name": "LÃ DE AÇO",
+      "table": "LA_ACO_MQLA",
+      "prefix": "MQLA"
+    },
+    {
+      "ancestor": "MANUAIS",
+      "name": "PÓ DE AÇO",
+      "table": "PO_ACO_MQPA",
+      "prefix": "MQPA"
+    },
+    {
+      "ancestor": "MATRIZ",
+      "name": "GARANTIA DA QUALIDADE",
+      "table": "GARANTIA_QUALIDADE_MA",
+      "prefix": "MA"
+    },
+    {
+      "ancestor": "PROCEDIMENTO",
+      "name": "ALMOXARIFADO PAL",
+      "table": "ALMOXARIFADO_PAL",
+      "prefix": "PAL"
+    },
+    {
+      "ancestor": "PROCEDIMENTO",
+      "name": "ALMOXARIFADO ITAL",
+      "table": "ALMOXARIFADO_ITAL",
+      "prefix": "ITAL"
+    },
+    {
+      "ancestor": "PROCEDIMENTO",
+      "name": "CONTROLE DE QUALIDADE GQ",
+      "table": "GQ",
+      "prefix": "GQ"
+    },
+    {
+      "ancestor": "PROCEDIMENTO",
+      "name": "CONTROLE DE QUALIDADE ITCQ",
+      "table": "CONTROLE_QUALIDADE_ITCQ",
+      "prefix": "ITCQ"
+    },
+    {
+      "ancestor": "PROCEDIMENTO",
+      "name": "EMBALAGEM ITE",
+      "table": "EMBALAGEM_ITE",
+      "prefix": "ITE"
+    },
+    {
+      "ancestor": "PROCEDIMENTO",
+      "name": "EMBALAGEM EMB",
+      "table": "EMBALAGEM_EMB",
+      "prefix": "EMB"
+    },
+    {
+      "ancestor": "PROCEDIMENTO",
+      "name": "ENVASE QUIMICO PQE",
+      "table": "ENVASE_QUIMICO_PQE",
+      "prefix": "PQE"
+    },
+    {
+      "ancestor": "PROCEDIMENTO",
+      "name": "ENVASE QUIMICO ITQ",
+      "table": "ENVASE_QUIMICO_ITQ",
+      "prefix": "ITQ"
+    },
+    {
+      "ancestor": "PROCEDIMENTO",
+      "name": "ENVASE QUIMICO POP",
+      "table": "POP",
+      "prefix": "POP"
+    },
+    {
+      "ancestor": "PROCEDIMENTO",
+      "name": "FABRICAÇÃO POP",
+      "table": "POP",
+      "prefix": "POP"
+    },
+    {
+      "ancestor": "PROCEDIMENTO",
+      "name": "FABRICAÇÃO ITQF",
+      "table": "FABRICACAO_ITQF",
+      "prefix": "ITQF"
+    },
+    {
+      "ancestor": "PROCEDIMENTO",
+      "name": "FACAS E PENTES ITP",
+      "table": "FACAS_PENTES_ITP",
+      "prefix": "ITP"
+    },
+    {
+      "ancestor": "PROCEDIMENTO",
+      "name": "FACAS E PENTES PP",
+      "table": "FACAS_PENTES_PP",
+      "prefix": "PP"
+    },
+    {
+      "ancestor": "PROCEDIMENTO",
+      "name": "GARANTIA DA QUALIDADE PGQ",
+      "table": "GARANTIA_QUALIDADE_PGQ",
+      "prefix": "PGQ"
+    },
+    {
+      "ancestor": "PROCEDIMENTO",
+      "name": "GARANTIA DA QUALIDADE ITGQ",
+      "table": "GARANTIA_QUALIDADE_ITGQ",
+      "prefix": "ITGQ"
+    },
+    {
+      "ancestor": "PROCEDIMENTO",
+      "name": "GARANTIA DA QUALIDADE GQ",
+      "table": "GQ",
+      "prefix": "GQ"
+    },
+    {
+      "ancestor": "PROCEDIMENTO",
+      "name": "INFRA ESTRUTURA",
+      "table": "INFRA_ESTRUTURA_P",
+      "prefix": "P"
+    },
+    {
+      "ancestor": "PROCEDIMENTO",
+      "name": "INFRA ESTRUTURA INF",
+      "table": "INFRA_ESTRUTURA_INF",
+      "prefix": "INF"
+    },
+    {
+      "ancestor": "PROCEDIMENTO",
+      "name": "LÃ DE AÇO PLÃ",
+      "table": "LA_ACO_PLA",
+      "prefix": "PLÃ"
+    },
+    {
+      "ancestor": "PROCEDIMENTO",
+      "name": "LÃ DE AÇO ITLÃ",
+      "table": "LA_ACO_ITLA",
+      "prefix": "ITLÃ"
+    },
+    {
+      "ancestor": "PROCEDIMENTO",
+      "name": "LOGISTICA ITLO",
+      "table": "LOGISTICA_ITLO",
+      "prefix": "ITLO"
+    },
+    {
+      "ancestor": "PROCEDIMENTO",
+      "name": "MANUTENÇÃO PM",
+      "table": "MANUTENCAO_PM",
+      "prefix": "PM"
+    },
+    {
+      "ancestor": "PROCEDIMENTO",
+      "name": "MANUTENÇÃO LÃ DE AÇO ITMA",
+      "table": "MANUTENCAO_LA_ACO_ITMA",
+      "prefix": "ITMA"
+    },
+    {
+      "ancestor": "PROCEDIMENTO",
+      "name": "MANUTENÇÃO LÃ DE AÇO PMA",
+      "table": "MANUTENCAO_LA_ACO_PMA",
+      "prefix": "PMA"
+    },
+    {
+      "ancestor": "PROCEDIMENTO",
+      "name": "MEIO AMBIENTE ITSMA",
+      "table": "MEIO_AMBIENTE_ITSMA",
+      "prefix": "ITSMA"
+    },
+    {
+      "ancestor": "PROCEDIMENTO",
+      "name": "MEIO AMBIENTE SMA",
+      "table": "MEIO_AMBIENTE_SMA",
+      "prefix": "SMA"
+    },
+    {
+      "ancestor": "PROCEDIMENTO",
+      "name": "MELHORIA CONTINUA MC",
+      "table": "MELHORIA_CONTINUA_MC",
+      "prefix": "MC"
+    },
+    {
+      "ancestor": "PROCEDIMENTO",
+      "name": "PÓ DE AÇO IM",
+      "table": "PO_ACO_IM",
+      "prefix": "IM"
+    },
+    {
+      "ancestor": "PROCEDIMENTO",
+      "name": "PÓ DE AÇO ITPA",
+      "table": "PO_ACO_ITPA",
+      "prefix": "ITPA"
+    },
+    {
+      "ancestor": "PROCEDIMENTO",
+      "name": "PÓ DE AÇO PPP",
+      "table": "PO_ACO_PPP",
+      "prefix": "PPA"
+    },
+    {
+      "ancestor": "PROCEDIMENTO",
+      "name": "PPP",
+      "table": "PPP_PPP",
+      "prefix": "PPP"
+    },
+    {
+      "ancestor": "PROCEDIMENTO",
+      "name": "RECUPERAÇÃO QUIMICA PRP",
+      "table": "RECUPERACAO_QUIMICA_PRP",
+      "prefix": "PRP"
+    },
+    {
+      "ancestor": "PROCEDIMENTO",
+      "name": "RECUPERAÇÃO QUIMICA ITRP",
+      "table": "RECUPERACAO_QUIMICA_ITRP",
+      "prefix": "ITRP"
+    },
+    {
+      "ancestor": "PROCEDIMENTO",
+      "name": "SEGURANÇA DO TRABALHO PST",
+      "table": "SEGURANCA_TRABALHO_PST",
+      "prefix": "PST"
+    },
+    {
+      "ancestor": "PROCEDIMENTO",
+      "name": "SEGURANÇA DO TRABALHO ITST",
+      "table": "SEGURANCA_TRABALHO_ITST",
+      "prefix": "ITST"
+    },
+    {
+      "ancestor": "PROCEDIMENTO",
+      "name": "TREINAMENTO E SELEÇÃO",
+      "table": "TREINAMENTO_SELECAO_PTS",
+      "prefix": "PTS"
+    },
+    {
+      "ancestor": "TABELA",
+      "name": "ALMOXARIFADO",
+      "table": "ALMOXARIFADO_TAL",
+      "prefix": "TAL"
+    },
+    {
+      "ancestor": "TABELA",
+      "name": "CONTROLE DE QUALIDADE",
+      "table": "CONTROLE_QUALIDADE_TCQ",
+      "prefix": "TCQ"
+    },
+    {
+      "ancestor": "TABELA",
+      "name": "EMBALAGEM",
+      "table": "EMBALAGEM_TEM",
+      "prefix": "TEM"
+    },
+    {
+      "ancestor": "TABELA",
+      "name": "ENVASE QUIMICO",
+      "table": "ENVASE_QUIMICO_TEQ",
+      "prefix": "TEQ"
+    },
+    {
+      "ancestor": "TABELA",
+      "name": "FABRICAÇÃO",
+      "table": "FABRICACAO_TFQ",
+      "prefix": "TFQ"
+    },
+    {
+      "ancestor": "TABELA",
+      "name": "FACAS E PENTES",
+      "table": "FACAS_PENTES_TFP",
+      "prefix": "TFP"
+    },
+    {
+      "ancestor": "TABELA",
+      "name": "GARANTIA DA QUALIDADE",
+      "table": "GARANTIA_QUALIDADE_TGQ",
+      "prefix": "TGQ"
+    },
+    {
+      "ancestor": "TABELA",
+      "name": "LÃ DE AÇO",
+      "table": "LA_ACO_TLA",
+      "prefix": "TLA"
+    },
+    {
+      "ancestor": "TABELA",
+      "name": "LOGISTICA",
+      "table": "LOGISTICA_TLO",
+      "prefix": "TLO"
+    },
+    {
+      "ancestor": "TABELA",
+      "name": "MANUTENÇÃO",
+      "table": "MANUTENCAO_TMA",
+      "prefix": "TMA"
+    },
+    {
+      "ancestor": "TABELA",
+      "name": "MANUTENÇÃO LÃ DE AÇO",
+      "table": "MANUTENCAO_LA_ACO_TML",
+      "prefix": "TML"
+    },
+    {
+      "ancestor": "TABELA",
+      "name": "PÓ DE AÇO",
+      "table": "PO_ACO_TPA",
+      "prefix": "TPA"
+    }
+  ]
+}
