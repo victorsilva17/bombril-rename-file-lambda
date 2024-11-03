@@ -17,9 +17,6 @@ exports.OAuth = async () => {
       scope: process.env.SCOPE
     })
 
-    console.log('Body', body)
-    console.log(config);
-
     const auth = await axios.post('https://developer.api.autodesk.com/authentication/v2/token', body, config)
     return "Bearer " + auth.data.access_token
 
