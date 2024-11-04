@@ -8,7 +8,6 @@ exports.OAuth = async () => {
       headers: {
         "Content-Type": "application/x-www-form-urlencoded"
       },
-      timeout: 8000 // Setting explicit timeout
     }
     const body = qs.stringify({
       client_id: process.env.CLIENT_ID,
